@@ -1,5 +1,7 @@
 # bruker_pulseq_utils
 
+**WIP : don't use the sequence on your scanner for now**
+
 This folder contains :
 - Python script to generate pulseq sequences for Bruker scanners
 - Reconstruction scripts for the generated data
@@ -21,4 +23,3 @@ pip install ipykernel # for jupyter notebook
 
 # Checks to do
 - check the hardware configuration on our scanner
-- 
