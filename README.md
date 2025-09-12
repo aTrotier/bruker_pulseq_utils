@@ -14,11 +14,17 @@ The repository is in private. You should ask [@mdbudde](https://github.com/mdbud
 - conda
 
 ## Conda environment
+
+
 ```
 run(`conda create -n pulseq_env python=3.10`)
 conda activate pulseq_env
-pip install pypulseq
 pip install ipykernel # for jupyter notebook
+```
+Currently bruker interpreter only works with pulseq >1.5.0 which is in dev on pypulseq. You can install it with the following commands :
+
+```
+pip install git+https://github.com/imr-framework/pypulseq@v1.5.0_dev
 ```
 
 # Checks to do
